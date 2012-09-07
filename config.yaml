@@ -1,0 +1,12 @@
+app_config:
+    app_id: 'XXXXXX'
+    secret: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+    project_name: "Temperature Widget"
+    salt: 'XXXXXXXXXXXXXXXXXXXXXXXX'
+
+mongodb:
+    server: "XXXXXX.mongohq.com"
+    port: XXXXXX
+    database: "XXXXXXXXXXXX"
+    username: "XXXXXX"
+    password: "XXXXXX"

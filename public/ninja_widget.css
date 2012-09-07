@@ -1,0 +1,27 @@
+#ninja_temperature_widget {
+    background: #fcfcfc; /* Old browsers */
+    background: -moz-linear-gradient(top, #fcfcfc 0%, #ececec 84%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(84%,#ececec)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fcfcfc 0%,#ececec 84%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fcfcfc 0%,#ececec 84%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fcfcfc 0%,#ececec 84%); /* IE10+ */
+    background: linear-gradient(to bottom, #fcfcfc 0%,#ececec 84%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ececec',GradientType=0 ); /* IE6-9 */
+    
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border: 1px solid #dddddd;
+    
+    color:#000000;
+    
+    text-align:center;
+    padding: 7px;
+    font-size:30px;
+    width:128px;
+    font-family:"Arial";
+}
+
+#ninja_currently{font-size:12px; text-align:center;color:#666666;margin-bottom:7px;}
+#powered_by_ninja{color:#A7A6AB;font-size:10px; text-align:right;}
+#powered_by_ninja:visited{color:#666666;}
