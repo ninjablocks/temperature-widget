@@ -15,7 +15,6 @@ config = YAML.load_file("config.yaml") #
 APP_ID       = config["app_config"]["app_id"]
 SECRET       = config["app_config"]["secret"]
 PROJECT_NAME = config["app_config"]["project_name"]
-SALT         = config["app_config"]["salt"]
 
 MongoMapper.connection = Mongo::Connection.new(config["mongodb"]["server"], config["mongodb"]["port"])
 MongoMapper.database = config["mongodb"]["database"]
